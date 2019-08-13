@@ -1,4 +1,10 @@
 import discord
+from discord.ext import Bot
+from discord.ext.commands import Bot
+import asycio
+import random
+import requests
+import os
 
 client = discord.Client()
 
