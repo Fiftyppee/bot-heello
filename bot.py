@@ -1,13 +1,12 @@
 import discord
 from discord.ext import Bot
-from discord.ext.commands import Bot
-import asycio
-import random
-import requests
+from discord.ext import commands
+import asyncio
+import time
 import os
 
 client = discord.Client()
-
+client = commands.Bot(command_prefix = "."
 @client.event
 async def on_ready():
     print('Logged in as')
