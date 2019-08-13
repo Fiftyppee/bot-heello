@@ -1,2 +1,5 @@
 pip
 discord.py[voice]
+colorlog
+pynacl==1.2.1
+cffi --only-binary all; sys_platform == 'win32'
